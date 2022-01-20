@@ -39,7 +39,7 @@ const tabTitle = (title, focused) => {
     focused
       ? { color: colors.primaryGreen }
       : { color: colors.grey },
-    { marginBottom: 4 },
+    { marginHorizontal: 4 },
     ]}
     weight={focused ? 'semi-bold' : ''}
     size='small'
